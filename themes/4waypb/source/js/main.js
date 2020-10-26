@@ -1,35 +1,64 @@
 window.fourwaypb = window.fourwaypb || {};
 
 
-window.fourwaypb.psobbClasses = [
-    'humar',
-    'hunewearl',
-    'hucast',
-    'hucaseal',
-    'ramar',
-    'ramarl',
-    'racast',
-    'racaseal',
-    'fomar',
-    'fomarl',
-    'fonewm',
-    'fonewearl',
+window.fourwaypb.classes = [
+    'hunter',
+    'ranger',
+    'force',
+    'fighgunner',
+    'guntecher',
+    'wartecher',
+    'fortefighter',
+    'fortegunner',
+    'fortetecher',
+    'protranser',
+    'acrofighter',
+    'acrotecher',
+    'fighmaster',
+    'gunmaster',
+    'masterforce',
+];
+
+window.fourwaypb.races = [
+    'human',
+    'newman',
+    'beast',
+    'cast',
+];
+
+window.fourwaypb.genders = [
+    'male',
+    'female',
 ];
 
 window.fourwaypb.classKeyToName = function(key) {
     switch (key) {
-        case 'humar':       return 'HUmar';
-        case 'hunewearl':   return 'HUnewearl';
-        case 'hucast':      return 'HUcast';
-        case 'hucaseal':    return 'HUcaseal';
-        case 'ramar':       return 'RAmar';
-        case 'ramarl':      return 'RAmarl';
-        case 'racast':      return 'RAcast';
-        case 'racaseal':    return 'RAcaseal';
-        case 'fomar':       return 'FOmar';
-        case 'fomarl':      return 'FOmarl';
-        case 'fonewm':      return 'FOnewm';
-        case 'fonewearl':   return 'FOnewearl';
+        case 'hunter'      : return 'Hunter';
+        case 'ranger'      : return 'Ranger';
+        case 'force'       : return 'Force';
+        case 'fighgunner'  : return 'Fighgunner';
+        case 'guntecher'   : return 'Guntecher';
+        case 'wartecher'   : return 'Wartecher';
+        case 'fortefighter': return 'Fortefighter';
+        case 'fortegunner' : return 'Fortegunner';
+        case 'fortetecher' : return 'Fortetecher';
+        case 'protranser'  : return 'Protranser';
+        case 'acrofighter' : return 'Acrofighter';
+        case 'acrotecher'  : return 'Acrotecher';
+        case 'fighmaster'  : return 'Fighmaster';
+        case 'gunmaster'   : return 'Gunmaster';
+        case 'masterforce' : return 'Masterforce';
+        
+        default: return "Unknown";
+    }
+};
+window.fourwaypb.raceKeyToName = function(key) {
+    switch (key) {
+        case 'human' : return 'Human';
+        case 'newman': return 'Newman';
+        case 'beast' : return 'Beast';
+        case 'cast'  : return 'Cast';
+        
         default: return "Unknown";
     }
 };

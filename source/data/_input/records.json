@@ -8,9 +8,8 @@
 		"players": [
 			{
 				"id": "test",
-				"class": "humar",
-				"race": "racast",
-				"gender": "racast",
+				"class": "hunter",
+				"race": "human",
 				"video": ""
 			}
 		]
