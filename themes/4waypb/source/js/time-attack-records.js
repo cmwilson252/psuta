@@ -502,52 +502,66 @@ window.fourwaypb.time_attack_records.ready = function() {
         $('#classes').dropdown({
             values: [
                 {
-                    name: 'HUmar',
-                    value: 'humar'
+                    name: 'Hunter',
+                    value: 'hunter'
                 },
                 {
-                    name: 'HUnewearl',
-                    value: 'hunewearl'
+                    name: 'Ranger',
+                    value: 'ranger'
                 },
                 {
-                    name: 'HUcast',
-                    value: 'hucast'
+                    name: 'Force',
+                    value: 'force'
                 },
                 {
-                    name: 'HUcaseal',
-                    value: 'hucaseal'
+                    name: 'Fighgunner',
+                    value: 'fighgunner'
                 },
                 {
-                    name: 'RAmar',
-                    value: 'ramar'
+                    name: 'Guntecher',
+                    value: 'guntecher'
                 },
                 {
-                    name: 'RAmarl',
-                    value: 'ramarl'
+                    name: 'Wartecher',
+                    value: 'wartecher'
+                },
+                
+                {
+                    name: 'Fortefighter',
+                    value: 'fortefighter'
                 },
                 {
-                    name: 'RAcast',
-                    value: 'racast'
+                    name: 'Fortegunner',
+                    value: 'fortegunner'
+                },
+                
+                {
+                    name: 'Fortetecher',
+                    value: 'fortetecher'
                 },
                 {
-                    name: 'RAcaseal',
-                    value: 'racaseal'
+                    name: 'Protranser',
+                    value: 'protranser'
                 },
                 {
-                    name: 'FOmar',
-                    value: 'fomar'
+                    name: 'Acrofighter',
+                    value: 'acrofighter'
                 },
                 {
-                    name: 'FOmarl',
-                    value: 'fomarl'
+                    name: 'Acrotecher',
+                    value: 'acrotecher'
                 },
                 {
-                    name: 'Fonewm',
-                    value: 'fonewm'
+                    name: 'Fighmaster',
+                    value: 'fightmaster'
                 },
                 {
-                    name: 'FOnewearl',
-                    value: 'fonewearl'
+                    name: 'Gunmaster',
+                    value: 'gunmaster'
+                },
+                {
+                    name: 'Masterforce',
+                    value: 'masterforce'
                 }
             ]
         });
