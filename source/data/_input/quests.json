@@ -6,6 +6,6 @@
 		"planet": "",
 		"is_teamz_enabled": false,
 		"is_cmode": false,
-		"is_countdown": true
+		"is_countdown": false
 	}
 ]
