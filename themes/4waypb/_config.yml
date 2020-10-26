@@ -16,27 +16,17 @@ menu:
     children:
       - name: 'Sandbox TA'
         url: '/concepts/sandbox-ta'
-      - name: 'Set Attack Damage'
-        url: '/concepts/set-attack-damage'
-      - name: 'Frame 1 Data'
-        url: '/concepts/f1-data'
-      - name: 'Quest Warp Values'
-        url: '/concepts/quest-warp-values'
-      - name: 'Combo Calculator'
-        url: '/concepts/combo-calculator'
   - name: 'Servers'
     url: '/servers'
     children:
-      - name: 'Gamecube'
+      - name: 'Clementine'
         url: '/servers/gamecube'
-      - name: 'Unseen'
-        url: '/servers/unseen'
   - name: 'Players'
     url: '/players'
   - name: 'Miscellaneous'
     url: '/miscellaneous'
-  - name: 'PSO: TA Discord'
-    url: 'https://discord.gg/q8bwhFX'
+  - name: 'PSU: TA Discord'
+    url: 'https://discord.gg/W4M79kA'
 
 # Content
 excerpt_link: Read More
