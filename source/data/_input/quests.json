@@ -2,10 +2,10 @@
 	{
 		"id": "test",
 		"name": "Test",
-		"mode": "",
-		"planet": "",
+		"mode": "1p",
+		"planet": "Yeet",
 		"is_teamz_enabled": false,
 		"is_cmode": false,
-		"is_countdown": true
+		"is_countdown": false
 	}
 ]

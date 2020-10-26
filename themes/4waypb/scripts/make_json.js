@@ -36,21 +36,6 @@ hexo.extend.filter.register('after_init', function(){
         output: path.join(output_data_dir, 'records.json'),
         data: null,
     }
-    let vanillaWeapons = {
-        input: path.join(input_data_dir, 'weapons-vanilla.json'),
-        output: path.join(output_data_dir, 'weapons-vanilla.json'),
-        data: null,
-    }
-    let vanillaMultiplayerEnemies = {
-        input: path.join(input_data_dir, 'enemies-vanilla-multi.json'),
-        output: path.join(output_data_dir, 'enemies-vanilla-multi.json'),
-        data: null,
-    }
-    let vanillaOpmEnemies = {
-        input: path.join(input_data_dir, 'enemies-vanilla-opm.json'),
-        output: path.join(output_data_dir, 'enemies-vanilla-opm.json'),
-        data: null,
-    }
     
     // Read file and parse it as JSON
     function readJsonFile(path) {
@@ -139,26 +124,6 @@ hexo.extend.filter.register('after_init', function(){
         throw error;
     }
 
-    vanillaWeapons.data = readJsonFile(vanillaWeapons.input);
-    if (vanillaWeapons.data == null) {
-        let error = 'Could not load vanilla weapons';
-        console.log(error);
-        throw error;
-    }
-
-    vanillaMultiplayerEnemies.data = readJsonFile(vanillaMultiplayerEnemies.input);
-    if (vanillaMultiplayerEnemies.data == null) {
-        let error = 'Could not load vanilla multiplayer enemies';
-        console.log(error);
-        throw error;
-    }
-    vanillaOpmEnemies.data = readJsonFile(vanillaOpmEnemies.input);
-    if (vanillaOpmEnemies.data == null) {
-        let error = 'Could not load vanilla opm enemies';
-        console.log(error);
-        throw error;
-    }
-
     // Process files
     let has_errors = false;
     
@@ -174,11 +139,7 @@ hexo.extend.filter.register('after_init', function(){
             console.log('Could not find quest: '+record.quest_id);
             has_errors = true;
         } else {
-            record.quest = {
-                id: quest.id,
-                name: quest.name,
-                is_countdown: quest.is_countdown,
-            };
+            record.quest = quest;
         }
     });
     
@@ -222,10 +183,7 @@ hexo.extend.filter.register('after_init', function(){
                 console.log('Could not find team: '+team_id);
                 has_errors = true;
             } else {
-                player.teams.push({
-                    name: team.name,
-                    image: team.image,
-                });
+                player.teams.push(team);
             }
         });
         delete player.team_ids;
@@ -250,10 +208,7 @@ hexo.extend.filter.register('after_init', function(){
             console.log('Could not find quest: '+event.quest_id);
             has_errors = true;
         } else {
-            event.quest = {
-                name: quest.name,
-                is_countdown: quest.is_countdown,
-            };
+            event.quest = quest;
         }
         delete event.quest_id;
         
@@ -282,16 +237,10 @@ hexo.extend.filter.register('after_init', function(){
                 return x.id === record.team_id;
             });
             if (team == undefined) {
-                if (record.team !== null) {
-                    console.log('Could not find team: '+record.team_id);
-                    has_errors = true;
-                }
+                console.log('Could not find team: '+record.team_id);
+                has_errors = true;
             } else {
-                record.team = {
-                    id: team.id,
-                    name: team.name,
-                    image: team.image,
-                };
+                record.team = team;
             }
         }
         delete record.team_id;
@@ -330,8 +279,6 @@ hexo.extend.filter.register('after_init', function(){
         throw 'There were errors in the file generation';
     }
     
-    // TODO write each player in a single file
-    // then remove the records key from the object
     players.data.forEach(function(player) {
         let output_file = path.join(output_players_dir, player.id+'.json');
         if (writeFile(output_file, JSON.stringify(player)) == false) {
@@ -374,31 +321,6 @@ hexo.extend.filter.register('after_init', function(){
     } else {
         console.log('Generated '+records.output);
     }
-
-    if (writeFile(vanillaWeapons.output, JSON.stringify(vanillaWeapons.data)) == false) {
-        let error = 'Could not write vanilla weapons file';
-        console.log(error);
-        throw error;
-    } else {
-        console.log('Generated '+vanillaWeapons.output);
-    }
-
-    if (writeFile(vanillaMultiplayerEnemies.output, JSON.stringify(vanillaMultiplayerEnemies.data)) == false) {
-        let error = 'Could not write vanilla multiplayer enemies file';
-        console.log(error);
-        throw error;
-    } else {
-        console.log('Generated '+vanillaMultiplayerEnemies.output);
-    }
-
-    if (writeFile(vanillaOpmEnemies.output, JSON.stringify(vanillaOpmEnemies.data)) == false) {
-        let error = 'Could not write vanilla opm enemies file';
-        console.log(error);
-        throw error;
-    } else {
-        console.log('Generated '+vanillaOpmEnemies.output);
-    }
-    
     
     console.log('Finish make_json.js');
 });

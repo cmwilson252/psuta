@@ -16,18 +16,18 @@ window.fourwaypb.time_attack_records.ready = function() {
             }
         },
         {
-            key: "episode",
-            header: "Episode",
+            key: "quest",
+            header: "Planet",
             collapse: false,
             last_value: null,
             formatter: (x) => {
-                return "Episode "+x;
+                return x.planet;
             }
         },
         {
             key: "quest",
             header: "Quest",
-            collapse: true,
+            collapse: false,
             last_value: null,
             formatter: (x) => {
                 return x.name;
@@ -78,16 +78,24 @@ window.fourwaypb.time_attack_records.ready = function() {
                 return playerClassesToList(x);
             }
         },
-        
+        {
+            key: "players",
+            header: "Races",
+            collapse: false,
+            last_value: null,
+            formatter: (x) => {
+                return playersToRaceList(x);
+            }
+        },
     ]
     let SearchSettings = {
         modes: [],
         metas: [],
-        episodes: [],
+        planets: [],
         categories: [],
-        photon_blasts: [],
         players: [],
         classes: [],
+        races: [],
         teams: [],
         quests: [],
     };
@@ -124,11 +132,7 @@ window.fourwaypb.time_attack_records.ready = function() {
     
     function metaToName(code){
         switch(code){
-            case '2014': return "2014";
-            case 'vanilla': return "Vanilla";
-            case 'gamecube': return "Gamecube";
-            case 'ultima': return "Ultima";
-            case 'blueburst': return "Blue Burst";
+            case 'clementine': return "Clementine";
             default: return "Unknown";
         }
     }
@@ -173,6 +177,16 @@ window.fourwaypb.time_attack_records.ready = function() {
         }
         return result;
     }
+    function playersToRaceList(arr){
+        let result = '';
+        for (let i = 0; i < arr.length; i++) {
+            if (i != 0) {
+                result += '</br>';
+            }
+            result += window.fourwaypb.raceKeyToName(arr[i].race);
+        }
+        return result;
+    }
     
     function xor(a, b) {
         return (a || b) && !(a && b);
@@ -213,11 +227,11 @@ window.fourwaypb.time_attack_records.ready = function() {
                     result = false;
                 }
             }
-            // Episode
-            if (SearchSettings.episodes.length > 0) {
+            // Planet
+            if (SearchSettings.planets.length > 0) {
                 let group = false;
-                SearchSettings.episodes.forEach(function (episode) {
-                    if (x.episode == episode) {
+                SearchSettings.planets.forEach(function (planet) {
+                    if (x.planet == planet) {
                         group = true;
                     }
                 });
@@ -231,19 +245,6 @@ window.fourwaypb.time_attack_records.ready = function() {
                 let group = false;
                 SearchSettings.categories.forEach(function (category) {
                     if (x.category == category) {
-                        group = true;
-                    }
-                });
-                
-                if (!group) {
-                    result = false;
-                }
-            }
-            // Photon Blast
-            if (SearchSettings.photon_blasts.length > 0) {
-                let group = false;
-                SearchSettings.photon_blasts.forEach(function (photon_blast) {
-                    if (String(x.pb) == photon_blast) {
                         group = true;
                     }
                 });
@@ -274,6 +275,22 @@ window.fourwaypb.time_attack_records.ready = function() {
                 SearchSettings.classes.forEach(function (className) {
                     for (let i = 0; i < x.players.length; i++) {
                         if (x.players[i].class == className) {
+                            group = true;
+                            break;
+                        }
+                    }
+                });
+                
+                if (!group) {
+                    result = false;
+                }
+            }
+            // Races
+            if (SearchSettings.races.length > 0) {
+                let group = false;
+                SearchSettings.races.forEach(function (race) {
+                    for (let i = 0; i < x.players.length; i++) {
+                        if (x.players[i].race == race) {
                             group = true;
                             break;
                         }
@@ -377,11 +394,11 @@ window.fourwaypb.time_attack_records.ready = function() {
     function updateSearchSettings() {
         SearchSettings.modes = $('#modes').dropdown('get values');
         SearchSettings.metas = $('#metas').dropdown('get values');
-        SearchSettings.episodes = $('#episodes').dropdown('get values');
+        SearchSettings.planets = $('#planets').dropdown('get values');
         SearchSettings.categories = $('#categories').dropdown('get values');
-        SearchSettings.photon_blasts = $('#photon_blasts').dropdown('get values');
         SearchSettings.players = $('#players').dropdown('get values');
         SearchSettings.classes = $('#classes').dropdown('get values');
+        SearchSettings.races = $('#races').dropdown('get values');
         SearchSettings.teams = $('#teams').dropdown('get values');
         SearchSettings.quests = $('#quests').dropdown('get values');
     }
@@ -421,53 +438,41 @@ window.fourwaypb.time_attack_records.ready = function() {
                     value: 'normal'
                 },
                 {
-                    name : 'Challenge',
-                    value : 'challenge',
+                    name : 'GAM',
+                    value : 'gam',
                 }
             ]
         });
         $('#metas').dropdown({
             values: [
                 {
-                    name: 'Vanilla',
-                    value: 'vanilla'
-                },
-                {
-                    name : '2014',
-                    value : '2014',
-                },
-                {
-                    name : 'Gamecube',
-                    value : 'gamecube',
-                },
-                {
-                    name : 'Ultima',
-                    value : 'ultima',
+                    name: 'Clementine',
+                    value: 'clementine'
                 }
             ]
         });
-        $('#episodes').dropdown({
+        $('#planets').dropdown({
             values: [
                 {
-                    name: 'Episode 1',
-                    value: '1'
+                    name: 'GUARDIANS Colony',
+                    value: 'guardians_colony'
                 },
                 {
-                    name : 'Episode 2',
-                    value : '2',
+                    name: 'Parum',
+                    value: 'parum'
                 },
                 {
-                    name : 'Episode 4',
-                    value : '4',
+                    name: 'Neudaiz',
+                    value: 'neudaiz'
+                },
+                {
+                    name: 'Moatoob',
+                    value: 'moatoob'
                 }
             ]
         });
         $('#categories').dropdown({
             values: [
-                {
-                    name: 'OPM',
-                    value: 'opm'
-                },
                 {
                     name : '1P',
                     value : '1p',
@@ -483,18 +488,14 @@ window.fourwaypb.time_attack_records.ready = function() {
                 {
                     name : '4P',
                     value : '4p',
-                }
-            ]
-        });
-        $('#photon_blasts').dropdown({
-            values: [
-                {
-                    name: 'No PB',
-                    value: 'false'
                 },
                 {
-                    name : 'PB',
-                    value : 'true',
+                    name : '5P',
+                    value : '5p',
+                },
+                {
+                    name : '6P',
+                    value : '6p',
                 }
             ]
         });
@@ -547,6 +548,26 @@ window.fourwaypb.time_attack_records.ready = function() {
                 {
                     name: 'FOnewearl',
                     value: 'fonewearl'
+                }
+            ]
+        });
+        $('#races').dropdown({
+            values: [
+                {
+                    name: 'Human',
+                    value: 'human'
+                },
+                {
+                    name: 'Newman',
+                    value: 'newman'
+                },
+                {
+                    name: 'Beast',
+                    value: 'beast'
+                },
+                {
+                    name: 'Cast',
+                    value: 'cast'
                 }
             ]
         });

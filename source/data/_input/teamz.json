@@ -1,6 +1,6 @@
 [
 	{
-		"quest_id": "su2",
+		"quest_id": "test",
 		"duration": "1 hour",
 		"date": "07/14/2020",
 		"is_countdown": false,
@@ -11,25 +11,25 @@
 				"winner": true,
 				"highlight": false,
 				"time": 399,
-				"score": {	
+				"score": {
 					"wins": 0,
 					"losses": 0
 				},
 				"players": [
 					{
-						"id": "soly",
+						"id": "test",
 						"class": "hucast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
-						"id": "soly",
+						"id": "test",
 						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
-						"id": "soly",
+						"id": "test",
 						"class": "hunewearl",
 						"is_captain": false,
 						"video": ""
@@ -45,19 +45,19 @@
 				},
 				"players": [
 					{
-						"id": "soly",
+						"id": "test",
 						"class": "hucast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
-						"id": "soly",
+						"id": "test",
 						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
-						"id": "soly",
+						"id": "test",
 						"class": "hunewearl",
 						"is_captain": false,
 						"video": ""

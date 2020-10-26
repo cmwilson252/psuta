@@ -1,10 +1,10 @@
 [
 	{
-		"id": "soly",
-		"name": "Soly",
-		"image": "images/players/solybum.jpg",
+		"id": "test",
+		"name": "Test",
+		"image": "images/player.png",
 		"classes": [
-			"RAcast"
+			"humar"
 		],
 		"metas": [
 			"None"
@@ -17,19 +17,19 @@
 			"<br/>",
 			"Test"
 		],
-		"discord": "Soly#0637",
-		"twitter": "solybum",
+		"discord": "Test#0000",
+		"twitter": "test",
 		"youtube": {
-			"name": "Soleil Rojas",
-			"url": "https://www.youtube.com/channel/UC9gcllXeb1BEkXcfctxMt6w"
+			"name": "Test",
+			"url": "https://www.youtube.com/test"
 		},
 		"twitch": {
 			"name": "",
 			"url": ""
 		},
 		"github": {
-			"name": "Solybum",
-			"url": "https://github.com/Solybum"
+			"name": "Test",
+			"url": "https://github.com/Test"
 		}
 	}
 ]

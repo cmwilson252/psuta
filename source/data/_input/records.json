@@ -1,17 +1,15 @@
 [
 	{
-		"mode": "normal",
-		"quest_id": "ma1a",
-		"episode": 1,
-		"meta": "ultima",
+		"quest_id": "test",
+		"meta": "clementine",
 		"category": "1p",
-		"pb": false,
 		"time": 740,
-		"team_id": "univers_ps",
+		"team_id": "test",
 		"players": [
 			{
-				"id": "soly",
-				"class": "racast",
+				"id": "test",
+				"class": "hunter",
+				"race": "human",
 				"video": ""
 			}
 		]

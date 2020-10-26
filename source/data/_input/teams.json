@@ -1,7 +1,7 @@
 [
     {
-        "id": "univers_ps",
-        "name": "Univers-PS",
-        "image": "images/team_flags/universe-ps.png"
+        "id": "test",
+        "name": "Test",
+        "image": "images/team.png"
     }
 ]

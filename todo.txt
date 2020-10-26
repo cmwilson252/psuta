@@ -1,0 +1,51 @@
+Existing fields
+Mode - Normal can stay, but for now challenge can go
+Meta - Only 1 meta will exist for now "Clementine"
+Episode -> Planet - Episode 1, 2,4 changed to planet names
+Category - OPM can go but 1-4 can stay and 5,6 added
+PB - Can go 
+Players - Can stay exactly
+Classes - Class names need to be changed to PSU class names
+Teams - Can stay as is
+Quests - Can stay as is, just need to update with PSU quests
+
+New fields
+
+Race - your race/gender aren't tied to your class like PSO so a new filter for that is needed
+
+-- Modes
+Nomral
+GAM
+
+-- Planets
+GUARDIANS Colony
+Parum
+Neudaiz
+Moatoob
+
+-- Class
+Hunter
+Ranger
+Force
+Fighgunner
+Guntecher
+Wartecher
+Fortefighter
+Fortegunner
+Fortetecher
+Protranser
+Acrofighter
+Acrotecher
+Fighmaster
+Gunmaster
+Masterforce
+
+-- Race
+Human
+Newman
+Beast
+Cast
+
+-- Gender
+Male
+Female
