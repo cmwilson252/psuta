@@ -83,7 +83,271 @@
 		"id": "military_subway",
 		"name": "Military Subway",
 		"mode": "normal",
-		"planet": "guardians_colony",
+		"planet": "parum",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "electronic_brain",
+		"name": "Electronic Brain",
+		"mode": "normal",
+		"planet": "parum",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "train_rescue",
+		"name": "Train Rescue",
+		"mode": "normal",
+		"planet": "parum",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "scarred_planet",
+		"name": "Scarred Planet",
+		"mode": "normal",
+		"planet": "parum",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "lightning_beasts",
+		"name": "Lightninng Beasts",
+		"mode": "normal",
+		"planet": "parum",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "seed_express",
+		"name": "SEED Express",
+		"mode": "normal",
+		"planet": "parum",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "beach_bum_beasts",
+		"name": "Beach Bum Beasts",
+		"mode": "normal",
+		"planet": "parum",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "mad_creatures",
+		"name": "Mad Creatures",
+		"mode": "normal",
+		"planet": "parum",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "sleeping_warriors",
+		"name": "Sleeping Warriors",
+		"mode": "normal",
+		"planet": "parum",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "plains_overlord",
+		"name": "Plains Overlord",
+		"mode": "normal",
+		"planet": "parum",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "crimson_beast",
+		"name": "Crimson Beast",
+		"mode": "normal",
+		"planet": "parum",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "shrunken_shrine",
+		"name": "Shrunken Shrine",
+		"mode": "normal",
+		"planet": "parum",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "mad_beasts",
+		"name": "Mad Beasts",
+		"mode": "normal",
+		"planet": "parum",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "lab_recovery",
+		"name": "Lab Recovery",
+		"mode": "normal",
+		"planet": "parum",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "endrum_remnants",
+		"name": "Endrum Remnants",
+		"mode": "normal",
+		"planet": "parum",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "aquatic_mama",
+		"name": "Aquatic Mama",
+		"mode": "normal",
+		"planet": "parum",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "the_dual_sentinel",
+		"name": "The Dual Sentinel",
+		"mode": "normal",
+		"planet": "parum",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "duel_in_the_ruins",
+		"name": "Duel in the Ruins",
+		"mode": "normal",
+		"planet": "parum",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "illusionary_shaft",
+		"name": "Illusionary Shaft",
+		"mode": "normal",
+		"planet": "parum",
+		"is_teamz_enabled": false,
+		"is_countdown": false
+	},
+	{
+		"id": "sacred_stream",
+		"name": "Sacred Stream",
+		"mode": "normal",
+		"planet": "neudaiz",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "white_beast",
+		"name": "White Beast",
+		"mode": "normal",
+		"planet": "neudaiz",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "mizuraki_defense",
+		"name": "Mizuraki Defense",
+		"mode": "normal",
+		"planet": "neudaiz",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "mizuraki_defense",
+		"name": "Mizuraki Defense",
+		"mode": "normal",
+		"planet": "neudaiz",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "demons_above",
+		"name": "Demons Above",
+		"mode": "normal",
+		"planet": "neudaiz",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "cost_of_research",
+		"name": "Cost of Research",
+		"mode": "normal",
+		"planet": "neudaiz",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "sakura_blast",
+		"name": "Sakura Blast",
+		"mode": "normal",
+		"planet": "neudaiz",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "flowery_pursuit",
+		"name": "Flowery Pursuit",
+		"mode": "normal",
+		"planet": "neudaiz",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "moonlight_beast",
+		"name": "Moonlight Beast",
+		"mode": "normal",
+		"planet": "neudaiz",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+		{
+		"id": "the_holy_ground",
+		"name": "The Holy Ground",
+		"mode": "normal",
+		"planet": "neudaiz",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "the_eastern_peril",
+		"name": "The Eastern Peril",
+		"mode": "normal",
+		"planet": "neudaiz",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "forest_infiltration",
+		"name": "Forest Infiltration",
+		"mode": "normal",
+		"planet": "neudaiz",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "sinners_banquet",
+		"name": "Sinners' Banquet",
+		"mode": "normal",
+		"planet": "neudaiz",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "forested_islands",
+		"name": "Forested Islands",
+		"mode": "normal",
+		"planet": "neudaiz",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "rainbow_beast",
+		"name": "Rainbow Beast",
+		"mode": "normal",
+		"planet": "neudaiz",
 		"is_teamz_enabled": true,
 		"is_countdown": false
 	}
