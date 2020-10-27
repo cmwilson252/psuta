@@ -5,16 +5,14 @@
 		"mode": "1p",
 		"planet": "Yeet",
 		"is_teamz_enabled": false,
-		"is_cmode": false,
 		"is_countdown": false
 	},
 	{
 		"id": "unsafe_passage",
 		"name": "Unsafe Passage",
-		"mode": "1p",
-		"planet": "",
+		"mode": "normal",
+		"planet": "guardians_colony",
 		"is_teamz_enabled": true,
-		"is_cmode": false,
 		"is_countdown": false
 	}
 ]
