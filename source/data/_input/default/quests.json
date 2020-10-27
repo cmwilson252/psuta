@@ -1,0 +1,10 @@
+[
+	{
+		"id": "test",
+		"name": "Test",
+		"mode": "normal",
+		"planet": "guardians_colony",
+		"is_teamz_enabled": false,
+		"is_countdown": false
+	}
+]
