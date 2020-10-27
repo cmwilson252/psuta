@@ -438,5 +438,85 @@
 		"planet": "moatoob",
 		"is_teamz_enabled": true,
 		"is_countdown": false
+	},
+	{
+		"id": "tunnel_recapture",
+		"name": "Tunnel Recapture",
+		"mode": "normal",
+		"planet": "moatoob",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "snowcap_screamer",
+		"name": "Snowcap Screamer",
+		"mode": "normal",
+		"planet": "moatoob",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "caves_of_ice",
+		"name": "Caves of Ice",
+		"mode": "normal",
+		"planet": "moatoob",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "awoken_serpent",
+		"name": "Awoken Serpent",
+		"mode": "normal",
+		"planet": "moatoob",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "desert_goliath",
+		"name": "Desert Goliath",
+		"mode": "normal",
+		"planet": "moatoob",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "stolen_weapon",
+		"name": "Stolen Weapon",
+		"mode": "normal",
+		"planet": "moatoob",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "red_hot_jungle",
+		"name": "Red Hot Jungle",
+		"mode": "normal",
+		"planet": "moatoob",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "lonely_laboratory",
+		"name": "Lonely Laboratory",
+		"mode": "normal",
+		"planet": "moatoob",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "bladed_legacy",
+		"name": "Bladed Legacy",
+		"mode": "normal",
+		"planet": "moatoob",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "forest_of_illusion",
+		"name": "Forest of Illusion",
+		"mode": "normal",
+		"planet": "moatoob",
+		"is_teamz_enabled": false,
+		"is_countdown": false
 	}
 ]
