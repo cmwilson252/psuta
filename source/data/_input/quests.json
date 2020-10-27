@@ -2,8 +2,8 @@
 	{
 		"id": "test",
 		"name": "Test",
-		"mode": "1p",
-		"planet": "Yeet",
+		"mode": "normal",
+		"planet": "guardians_colony",
 		"is_teamz_enabled": false,
 		"is_countdown": false
 	},

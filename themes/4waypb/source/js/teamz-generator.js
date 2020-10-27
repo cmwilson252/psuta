@@ -31,13 +31,13 @@ window.fourwaypb.teamz_generator.ready = function() {
     
     let quests = null;
     let currentQuests = null;
-    let challengeMode = false;
+    let currentMode = 'normal';
     
     function setupQuests() {
         let questsToAdd = [];
         quests.forEach(function (quest) {
             if (quest.is_teamz_enabled) {
-                if (quest.is_cmode == challengeMode) {
+                if (quest.mode == currentMode) {
                     questsToAdd.push({
                         name: quest.name,
                         value: quest.id,
@@ -60,9 +60,10 @@ window.fourwaypb.teamz_generator.ready = function() {
     }
     
     function setupGeneration() {
-        $('#challenge_mode').checkbox({
+        $('#gam').checkbox({
             onChange: function() {
-                challengeMode = $('#challenge_mode').checkbox('is checked');
+                let gamChecked = $('#gam').checkbox('is checked');
+                currentMode = gamChecked ? 'gam' : 'normal';
                 setupQuests();
             }
         });
