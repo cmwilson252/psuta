@@ -1,5 +1,40 @@
 [
 	{
+		"id": "flawless",
+		"name": "Flawless",
+		"image": "images/flawless.jpg",
+		"classes": [
+			"fighmaster",
+			"fortefighter",
+			"protranser"
+		],
+		"metas": [
+			"Clementine"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": ".1%er#9342",
+		"twitter": "coloradowilson2",
+		"youtube": {
+			"name": "wilsonpsobb",
+			"url": "https://www.youtube.com/channel/UC29uGMxI7poTYHEifhZwILw?view_as=subscriber"
+		},
+		"twitch": {
+			"name": "wilsonpsobb",
+			"url": "https://www.twitch.tv/wilsonpsobb"
+		},
+		"github": {
+			"name": "cmwilson252",
+			"url": "https://github.com/cmwilson252"
+		}
+	},
+	{
 		"id": "test",
 		"name": "Test",
 		"image": "images/player.png",
