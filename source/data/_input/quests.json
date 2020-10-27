@@ -350,5 +350,93 @@
 		"planet": "neudaiz",
 		"is_teamz_enabled": true,
 		"is_countdown": false
+	},
+	{
+		"id": "hill_of_spores",
+		"name": "Hill of Spores",
+		"mode": "normal",
+		"planet": "neudaiz",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "dancing_birds",
+		"name": "Dancing Birds",
+		"mode": "normal",
+		"planet": "neudaiz",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},	
+	{
+		"id": "grove_of_fanatics",
+		"name": "Grove of Fanatics",
+		"mode": "normal",
+		"planet": "neudaiz",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "castle_of_monsters",
+		"name": "Castle of Monsters",
+		"mode": "normal",
+		"planet": "neudaiz",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "phantom_fissure",
+		"name": "Phantom Fissure",
+		"mode": "normal",
+		"planet": "neudaiz",
+		"is_teamz_enabled": false,
+		"is_countdown": false
+	},
+	{
+		"id": "system_defense",
+		"name": "System Defense",
+		"mode": "normal",
+		"planet": "moatoob",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "citadel_of_sand",
+		"name": "Citadel of Sand",
+		"mode": "normal",
+		"planet": "moatoob",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "desert_terror",
+		"name": "Desert Terror",
+		"mode": "normal",
+		"planet": "moatoob",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "valley_of_carnage",
+		"name": "Valley of Carnage",
+		"mode": "normal",
+		"planet": "moatoob",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "mine_defense",
+		"name": "Mine Defense",
+		"mode": "normal",
+		"planet": "moatoob",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "rogues_shortcut",
+		"name": "Rogues' Shortcut",
+		"mode": "normal",
+		"planet": "moatoob",
+		"is_teamz_enabled": true,
+		"is_countdown": false
 	}
 ]
