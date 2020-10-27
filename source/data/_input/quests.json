@@ -256,14 +256,6 @@
 		"is_countdown": false
 	},
 	{
-		"id": "mizuraki_defense",
-		"name": "Mizuraki Defense",
-		"mode": "normal",
-		"planet": "neudaiz",
-		"is_teamz_enabled": true,
-		"is_countdown": false
-	},
-	{
 		"id": "demons_above",
 		"name": "Demons Above",
 		"mode": "normal",
