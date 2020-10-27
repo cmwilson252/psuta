@@ -3,5 +3,10 @@
         "id": "test",
         "name": "Test",
         "image": "images/team.png"
+    },
+    {
+        "id": "team1",
+        "name": "Team 1",
+        "image": "images/logo.png"
     }
 ]

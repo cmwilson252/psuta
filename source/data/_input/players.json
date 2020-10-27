@@ -11,7 +11,7 @@
 		"metas": [
 			"Clementine"
 		],
-		"team_ids": [],
+		"team_ids": ["team1"],
 		"timezone": "CST",
 		"card_content": [],
 		"page_content": [
