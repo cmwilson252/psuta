@@ -14,5 +14,85 @@
 		"planet": "guardians_colony",
 		"is_teamz_enabled": true,
 		"is_countdown": false
+	},
+	{
+		"id": "fight_for_food",
+		"name": "Fight for Food",
+		"mode": "normal",
+		"planet": "guardians_colony",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "dark_satellite",
+		"name": "Dark Satellite",
+		"mode": "normal",
+		"planet": "guardians_colony",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "seed_awakened",
+		"name": "SEED Awakened",
+		"mode": "normal",
+		"planet": "guardians_colony",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "the_black_nest",
+		"name": "The Black Nest",
+		"mode": "normal",
+		"planet": "guardians_colony",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "the_dark_god",
+		"name": "The Dark God",
+		"mode": "normal",
+		"planet": "guardians_colony",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "fantastic_voyage",
+		"name": "Fantastic Voyage",
+		"mode": "normal",
+		"planet": "guardians_colony",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "phantom_ruins",
+		"name": "Phantom Ruins",
+		"mode": "normal",
+		"planet": "guardians_colony",
+		"is_teamz_enabled": false,
+		"is_countdown": false
+	},
+	{
+		"id": "unsafe_passage",
+		"name": "Unsafe Passage",
+		"mode": "normal",
+		"planet": "guardians_colony",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "amf_hq_recovery",
+		"name": "AMF HQ Recovery",
+		"mode": "normal",
+		"planet": "parum",
+		"is_teamz_enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "military_subway",
+		"name": "Military Subway",
+		"mode": "normal",
+		"planet": "guardians_colony",
+		"is_teamz_enabled": true,
+		"is_countdown": false
 	}
 ]
