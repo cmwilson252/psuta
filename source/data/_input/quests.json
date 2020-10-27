@@ -72,14 +72,6 @@
 		"is_countdown": false
 	},
 	{
-		"id": "unsafe_passage",
-		"name": "Unsafe Passage",
-		"mode": "normal",
-		"planet": "guardians_colony",
-		"is_teamz_enabled": true,
-		"is_countdown": false
-	},
-	{
 		"id": "amf_hq_recovery",
 		"name": "AMF HQ Recovery",
 		"mode": "normal",
