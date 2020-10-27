@@ -70,6 +70,41 @@
 		}
 	},
 	{
+		"id": "aelphasy",
+		"name": "Aelphasy",
+		"image": "images/aelphasy.jpg",
+		"classes": [
+			"guntecher",
+			"fortegunner",
+			"gunmaster"
+		],
+		"metas": [
+			"Clementine"
+		],
+		"team_ids": [],
+		"timezone": "CET",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "Aelphasy#0252",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "test",
 		"name": "Test",
 		"image": "images/player.png",
