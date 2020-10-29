@@ -103,6 +103,41 @@
 		}
 	},
 	{
+		"id": "jess",
+		"name": "Jess Victorix",
+		"image": "images/jess.png",
+		"classes": [
+			"fighmaster",
+			"acrofighter",
+			"masterforce"
+		],
+		"metas": [
+			"Clementine"
+		],
+		"team_ids": ["team1"],
+		"timezone": "BST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "Jess Victorix#3098",
+		"twitter": "",
+		"youtube": {
+			"name": "Victorix XVII",
+			"url": "https://www.youtube.com/user/xxcloudstrife17"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "aelphasy",
 		"name": "Aelphasy",
 		"image": "images/aelphasy.jpg",
