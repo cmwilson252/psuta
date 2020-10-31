@@ -138,6 +138,41 @@
 		}
 	},
 	{
+		"id": "haro",
+		"name": "Haro",
+		"image": "images/haro.jpg",
+		"classes": [
+			"masterforce",
+			"gunmaster",
+			"protranser"
+		],
+		"metas": [
+			"Clementine"
+		],
+		"team_ids": ["team1"],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "A Rad Lad#6969",
+		"twitter": "Rad_Lad_",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "Harospex",
+			"url": "https://www.twitch.tv/harospex"
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "aelphasy",
 		"name": "Aelphasy",
 		"image": "images/aelphasy.jpg",
