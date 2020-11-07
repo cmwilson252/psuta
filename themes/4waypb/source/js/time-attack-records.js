@@ -12,7 +12,7 @@ window.fourwaypb.time_attack_records.ready = function() {
             collapse: false,
             last_value: null,
             formatter: (x) => {
-                return metaToName(x);
+                return window.fourwaypb.metaKeyToName(x);
             }
         },
         {
@@ -21,7 +21,7 @@ window.fourwaypb.time_attack_records.ready = function() {
             collapse: false,
             last_value: null,
             formatter: (x) => {
-                return x.planet;
+                return window.fourwaypb.planetKeyToName(x.planet);
             }
         },
         {
@@ -31,6 +31,24 @@ window.fourwaypb.time_attack_records.ready = function() {
             last_value: null,
             formatter: (x) => {
                 return x.name;
+            }
+        },
+        {
+            key: "rank",
+            header: "Rank",
+            collapse: false,
+            last_value: null,
+            formatter: (x) => {
+                return window.fourwaypb.rankKeyToName(x);
+            }
+        },
+        {
+            key: "date",
+            header: "Date",
+            collapse: false,
+            last_value: null,
+            formatter: (x) => {
+                return dateFns.format(x, 'MM/DD/YYYY');
             }
         },
         {
@@ -92,6 +110,8 @@ window.fourwaypb.time_attack_records.ready = function() {
         modes: [],
         metas: [],
         planets: [],
+        ranks: [],
+        date: null,
         categories: [],
         players: [],
         classes: [],
@@ -235,6 +255,30 @@ window.fourwaypb.time_attack_records.ready = function() {
                         group = true;
                     }
                 });
+                
+                if (!group) {
+                    result = false;
+                }
+            }
+            // Rank
+            if (SearchSettings.ranks.length > 0) {
+                let group = false;
+                SearchSettings.ranks.forEach(function (rank) {
+                    if (x.rank == rank) {
+                        group = true;
+                    }
+                });
+                
+                if (!group) {
+                    result = false;
+                }
+            }
+            // Rank
+            if (SearchSettings.date) {
+                let group = false;
+                if (dateFns.isBefore(dateFns.parse(x.date), SearchSettings.date)) {
+                    group = true;
+                }
                 
                 if (!group) {
                     result = false;
@@ -395,6 +439,8 @@ window.fourwaypb.time_attack_records.ready = function() {
         SearchSettings.modes = $('#modes').dropdown('get values');
         SearchSettings.metas = $('#metas').dropdown('get values');
         SearchSettings.planets = $('#planets').dropdown('get values');
+        SearchSettings.ranks = $('#ranks').dropdown('get values');
+        SearchSettings.date = $('#date').calendar('get date');
         SearchSettings.categories = $('#categories').dropdown('get values');
         SearchSettings.players = $('#players').dropdown('get values');
         SearchSettings.classes = $('#classes').dropdown('get values');
@@ -468,6 +514,38 @@ window.fourwaypb.time_attack_records.ready = function() {
                 {
                     name: 'Moatoob',
                     value: 'moatoob'
+                }
+            ]
+        });
+        $('#ranks').dropdown({
+            values: [
+                {
+                    name: 'C',
+                    value: 'c'
+                },
+                {
+                    name: 'B',
+                    value: 'b'
+                },
+                {
+                    name: 'A',
+                    value: 'a'
+                },
+                {
+                    name: 'S',
+                    value: 's'
+                },
+                {
+                    name: 'S2',
+                    value: 's2'
+                },
+                {
+                    name: 'S3',
+                    value: 's3'
+                },
+                {
+                    name: 'S4',
+                    value: 's4'
                 }
             ]
         });
