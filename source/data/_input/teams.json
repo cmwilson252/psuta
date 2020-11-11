@@ -8,5 +8,11 @@
         "id": "umbrage",
         "name": "Umbrage",
         "image": "images/team.png"
+    },
+    {
+        "id": "gatglitch",
+        "name": "Gat Glitch",
+        "image": "images/team.png"
     }
+
 ]

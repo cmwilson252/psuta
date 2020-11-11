@@ -243,6 +243,41 @@
 		}
 	},
 	{
+		"id": "gatman",
+		"name": "Gatman",
+		"image": "images/gatman.jpg",
+		"classes": [
+			"gunmaster",
+			"wartecher",
+			"fighgunner"
+		],
+		"metas": [
+			"Clementine"
+		],
+		"team_ids": ["gatglitch"],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "Gatman#5299",
+		"twitter": "",
+		"youtube": {
+			"name": "Matt Otto",
+			"url": "https://www.youtube.com/channel/UCuhaH0a3rkn6-nqb_8jECnQ"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "test",
 		"name": "Test",
 		"image": "images/player.png",
