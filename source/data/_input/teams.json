@@ -3,5 +3,10 @@
         "id": "traveler",
         "name": "TrAveler",
         "image": "images/logo.png"
+    },
+    {
+        "id": "umbrage",
+        "name": "Umbrage",
+        "image": "images/team.png"
     }
 ]

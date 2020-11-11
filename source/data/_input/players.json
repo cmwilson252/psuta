@@ -138,6 +138,41 @@
 		}
 	},
 	{
+		"id": "happy",
+		"name": "Happy",
+		"image": "images/happy.png",
+		"classes": [
+			"fighgunner",
+			"guntecher",
+			"fortefighter"
+		],
+		"metas": [
+			"Clementine"
+		],
+		"team_ids": ["umbrage"],
+		"timezone": "GMT +1",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "happy ツ#8831",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "aelphasy",
 		"name": "Aelphasy",
 		"image": "images/aelphasy.jpg",
