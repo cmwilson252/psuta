@@ -11,7 +11,7 @@
 		"metas": [
 			"Clementine"
 		],
-		"team_ids": ["team1"],
+		"team_ids": ["traveler"],
 		"timezone": "CST",
 		"card_content": [],
 		"page_content": [
@@ -44,7 +44,7 @@
 		"metas": [
 			"Clementine"
 		],
-		"team_ids": ["team1"],
+		"team_ids": ["traveler"],
 		"timezone": "GMT",
 		"card_content": [],
 		"page_content": [
@@ -68,41 +68,6 @@
 		}
 	},
 	{
-		"id": "midori",
-		"name": "ミドリ★",
-		"image": "images/midori.png",
-		"classes": [
-			"wartecher",
-			"guntecher",
-			"acrofighter"
-		],
-		"metas": [
-			"Clementine"
-		],
-		"team_ids": ["team1"],
-		"timezone": "MST",
-		"card_content": [],
-		"page_content": [
-			"Test",
-			"<br/>",
-			"Test"
-		],
-		"discord": "ミドリ★ Midori Hoshi#7050",
-		"twitter": "",
-		"youtube": {
-			"name": "",
-			"url": ""
-		},
-		"twitch": {
-			"name": "",
-			"url": ""
-		},
-		"github": {
-			"name": "",
-			"url": ""
-		}
-	},
-	{
 		"id": "jess",
 		"name": "Jess Victorix",
 		"image": "images/jess.png",
@@ -114,7 +79,7 @@
 		"metas": [
 			"Clementine"
 		],
-		"team_ids": ["team1"],
+		"team_ids": ["traveler"],
 		"timezone": "BST",
 		"card_content": [],
 		"page_content": [
@@ -149,7 +114,7 @@
 		"metas": [
 			"Clementine"
 		],
-		"team_ids": ["team1"],
+		"team_ids": ["traveler"],
 		"timezone": "CST",
 		"card_content": [],
 		"page_content": [
@@ -193,6 +158,41 @@
 			"Test"
 		],
 		"discord": "Aelphasy#0252",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "midori",
+		"name": "ミドリ★",
+		"image": "images/midori.png",
+		"classes": [
+			"wartecher",
+			"guntecher",
+			"acrofighter"
+		],
+		"metas": [
+			"Clementine"
+		],
+		"team_ids": [],
+		"timezone": "MST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "ミドリ★ Midori Hoshi#7050",
 		"twitter": "",
 		"youtube": {
 			"name": "",

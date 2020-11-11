@@ -1,12 +1,7 @@
 [
     {
-        "id": "test",
-        "name": "Test",
-        "image": "images/team.png"
-    },
-    {
-        "id": "team1",
-        "name": "Team 1",
+        "id": "traveler",
+        "name": "TrAveler",
         "image": "images/logo.png"
     }
 ]

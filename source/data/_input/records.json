@@ -1,27 +1,10 @@
 [
 	{
-		"quest_id": "test",
-		"meta": "clementine",
-		"category": "1p",
-		"time": 740,
-		"team_id": "test",
-		"rank": "c",
-		"date": "2020-11-08",
-		"players": [
-			{
-				"id": "test",
-				"class": "hunter",
-				"race": "human",
-				"video": ""
-			}
-		]
-	},
-	{
 		"quest_id": "sakura_blast",
 		"meta": "clementine",
 		"category": "1p",
 		"time": 3127,
-		"team_id": "test",
+		"team_id": "traveler",
 		"rank": "b",
 		"date": "2020-11-10",
 		"players": [
