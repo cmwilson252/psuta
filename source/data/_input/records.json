@@ -3,6 +3,23 @@
 		"quest_id": "sakura_blast",
 		"meta": "clementine",
 		"category": "1p",
+		"time": 419,
+		"team_id": "gatglitch",
+		"rank": "b",
+		"date": "2020-11-12",
+		"players": [
+			{
+				"id": "gatman",
+				"class": "fighgunner",
+				"race": "human",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "sakura_blast",
+		"meta": "clementine",
+		"category": "1p",
 		"time": 449,
 		"team_id": "umbrage",
 		"rank": "b",
@@ -29,23 +46,6 @@
 				"id": "jess",
 				"class": "fortefighter",
 				"race": "beast",
-				"video": ""
-			}
-		]
-	},
-	{
-		"quest_id": "sakura_blast",
-		"meta": "clementine",
-		"category": "1p",
-		"time": 475,
-		"team_id": "gatglitch",
-		"rank": "b",
-		"date": "2020-11-11",
-		"players": [
-			{
-				"id": "gatman",
-				"class": "fighgunner",
-				"race": "human",
 				"video": ""
 			}
 		]
