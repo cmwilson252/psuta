@@ -13,6 +13,11 @@
         "id": "gatglitch",
         "name": "Gat Glitch",
         "image": "images/team.png"
+    },
+    {
+        "id": "noteam",
+        "name": "No Team",
+        "image": "images/team.png"
     }
 
 ]

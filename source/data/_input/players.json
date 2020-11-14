@@ -208,41 +208,6 @@
 		}
 	},
 	{
-		"id": "midori",
-		"name": "ミドリ★",
-		"image": "images/midori.png",
-		"classes": [
-			"wartecher",
-			"guntecher",
-			"acrofighter"
-		],
-		"metas": [
-			"Clementine"
-		],
-		"team_ids": [],
-		"timezone": "MST",
-		"card_content": [],
-		"page_content": [
-			"Test",
-			"<br/>",
-			"Test"
-		],
-		"discord": "ミドリ★ Midori Hoshi#7050",
-		"twitter": "",
-		"youtube": {
-			"name": "",
-			"url": ""
-		},
-		"twitch": {
-			"name": "",
-			"url": ""
-		},
-		"github": {
-			"name": "",
-			"url": ""
-		}
-	},
-	{
 		"id": "gatman",
 		"name": "Gatman",
 		"image": "images/gatman.jpg",
@@ -267,6 +232,74 @@
 		"youtube": {
 			"name": "Matt Otto",
 			"url": "https://www.youtube.com/channel/UCuhaH0a3rkn6-nqb_8jECnQ"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "randomz",
+		"name": "RandomZ",
+		"image": "images/player.png",
+		"classes": [
+		
+		],
+		"metas": [
+			"Clementine"
+		],
+		"team_ids": [],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "RandomZ#0001",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "midori",
+		"name": "ミドリ★",
+		"image": "images/midori.png",
+		"classes": [
+			"wartecher",
+			"guntecher",
+			"acrofighter"
+		],
+		"metas": [
+			"Clementine"
+		],
+		"team_ids": [],
+		"timezone": "MST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "ミドリ★ Midori Hoshi#7050",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
 		},
 		"twitch": {
 			"name": "",
