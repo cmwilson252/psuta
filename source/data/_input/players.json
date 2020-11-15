@@ -311,6 +311,204 @@
 		}
 	},
 	{
+		"id": "waffle",
+		"name": "Waffle",
+		"image": "images/player.png",
+		"classes": [
+			""
+		],
+		"metas": [
+			"None"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "Test#0000",
+		"twitter": "test",
+		"youtube": {
+			"name": "Test",
+			"url": "https://www.youtube.com/test"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "Test",
+			"url": "https://github.com/Test"
+		}
+	},
+	{
+		"id": "towel",
+		"name": "Towel",
+		"image": "images/player.png",
+		"classes": [
+			""
+		],
+		"metas": [
+			"None"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "Test#0000",
+		"twitter": "test",
+		"youtube": {
+			"name": "Test",
+			"url": "https://www.youtube.com/test"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "Test",
+			"url": "https://github.com/Test"
+		}
+	},
+	{
+		"id": "bigfella",
+		"name": "BigFella",
+		"image": "images/player.png",
+		"classes": [
+			""
+		],
+		"metas": [
+			"None"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "Test#0000",
+		"twitter": "test",
+		"youtube": {
+			"name": "Test",
+			"url": "https://www.youtube.com/test"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "Test",
+			"url": "https://github.com/Test"
+		}
+	},
+	{
+		"id": "mrgotyoubent",
+		"name": "MrGotYouBent",
+		"image": "images/player.png",
+		"classes": [
+			""
+		],
+		"metas": [
+			"None"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "Test#0000",
+		"twitter": "test",
+		"youtube": {
+			"name": "Test",
+			"url": "https://www.youtube.com/test"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "Test",
+			"url": "https://github.com/Test"
+		}
+	},
+	{
+		"id": "wolfe",
+		"name": "Wolfe",
+		"image": "images/player.png",
+		"classes": [
+			""
+		],
+		"metas": [
+			"None"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "Test#0000",
+		"twitter": "test",
+		"youtube": {
+			"name": "Test",
+			"url": "https://www.youtube.com/test"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "Test",
+			"url": "https://github.com/Test"
+		}
+	},
+	{
+		"id": "shawnthebot",
+		"name": "Shawn The Bot",
+		"image": "images/player.png",
+		"classes": [
+			""
+		],
+		"metas": [
+			"None"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "Test#0000",
+		"twitter": "test",
+		"youtube": {
+			"name": "Test",
+			"url": "https://www.youtube.com/test"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "Test",
+			"url": "https://github.com/Test"
+		}
+	},
+	{
 		"id": "test",
 		"name": "Test",
 		"image": "images/player.png",

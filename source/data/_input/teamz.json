@@ -1,36 +1,30 @@
 [
 	{
-		"quest_id": "test",
+		"quest_id": "the_black_nest",
 		"duration": "1 hour",
-		"date": "07/14/2020",
+		"date": "11/15/2020",
 		"is_countdown": false,
-		"season": 1,
+		"season": 0,
 		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
 				"highlight": false,
-				"time": 399,
+				"time": 424,
 				"score": {
 					"wins": 0,
 					"losses": 0
 				},
 				"players": [
 					{
-						"id": "test",
-						"class": "hucast",
+						"id": "jess",
+						"class": "fortefighter",
 						"is_captain": true,
 						"video": ""
 					},
 					{
-						"id": "test",
-						"class": "hucast",
-						"is_captain": false,
-						"video": ""
-					},
-					{
-						"id": "test",
-						"class": "hunewearl",
+						"id": "waffle",
+						"class": "acrofighter",
 						"is_captain": false,
 						"video": ""
 					}
@@ -38,27 +32,21 @@
 			},
 			{
 				"winner": false,
-				"time": 385,
+				"time": 463,
 				"score": {
 					"wins": 0,
 					"losses": 0
 				},
 				"players": [
 					{
-						"id": "test",
-						"class": "hucast",
+						"id": "flawless",
+						"class": "fighgunner",
 						"is_captain": true,
 						"video": ""
 					},
 					{
-						"id": "test",
-						"class": "hucast",
-						"is_captain": false,
-						"video": ""
-					},
-					{
-						"id": "test",
-						"class": "hunewearl",
+						"id": "haro",
+						"class": "guntecher",
 						"is_captain": false,
 						"video": ""
 					}
