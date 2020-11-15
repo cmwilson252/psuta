@@ -64,23 +64,6 @@
 		]
 	},
 	{
-		"quest_id": "military_subway",
-		"meta": "clementine",
-		"category": "1p",
-		"time": 1432,
-		"team_id": "noteam",
-		"rank": "A",
-		"date": "2020-11-12",
-		"players": [
-			{
-				"id": "randomz",
-				"class": "fortegunner",
-				"race": "beast",
-				"video": ""
-			}
-		]
-	},
-	{
 		"quest_id": "seed_express",
 		"meta": "clementine",
 		"category": "1p",
