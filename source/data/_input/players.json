@@ -364,18 +364,18 @@
 			"Test"
 		],
 		"discord": "dumpster delight#9004",
-		"twitter": "test",
+		"twitter": "",
 		"youtube": {
-			"name": "Test",
-			"url": "https://www.youtube.com/test"
+			"name": "",
+			"url": ""
 		},
 		"twitch": {
 			"name": "capriciouscapra",
 			"url": "https://www.twitch.tv/capriciouscapra"
 		},
 		"github": {
-			"name": "Test",
-			"url": "https://github.com/Test"
+			"name": "",
+			"url": ""
 		}
 	},
 	{
