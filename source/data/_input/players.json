@@ -345,13 +345,15 @@
 	},
 	{
 		"id": "xerra",
-		"name": "Xerra",
-		"image": "images/player.png",
+		"name": "Xerraphym",
+		"image": "images/xerra.jpg",
 		"classes": [
-			""
+			"guntecher",
+			"wartecher",
+			"fighgunner"
 		],
 		"metas": [
-			"None"
+			"clementine"
 		],
 		"team_ids": [],
 		"timezone": "CST",
@@ -361,15 +363,15 @@
 			"<br/>",
 			"Test"
 		],
-		"discord": "Test#0000",
+		"discord": "dumpster delight#9004",
 		"twitter": "test",
 		"youtube": {
 			"name": "Test",
 			"url": "https://www.youtube.com/test"
 		},
 		"twitch": {
-			"name": "",
-			"url": ""
+			"name": "capriciouscapra",
+			"url": "https://www.twitch.tv/capriciouscapra"
 		},
 		"github": {
 			"name": "Test",
