@@ -1,5 +1,84 @@
 [
 	{
+		"quest_id": "sacred_stream",
+		"duration": "1 hour",
+		"date": "11/15/2020",
+		"is_countdown": false,
+		"season": 0,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 261,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "flawless",
+						"class": "fighgunner",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "randomz",
+						"class": "fortegunner",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "haro",
+						"class": "guntecher",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "xerra",
+						"class": "guntecher",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 325,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "jess",
+						"class": "fortefighter",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "cyanide",
+						"class": "acrofighter",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "waffle",
+						"class": "acrofighter",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mozz",
+						"class": "acrotecher",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
 		"quest_id": "the_black_nest",
 		"duration": "1 hour",
 		"date": "11/15/2020",

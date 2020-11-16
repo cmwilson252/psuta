@@ -344,6 +344,105 @@
 		}
 	},
 	{
+		"id": "xerra",
+		"name": "Xerra",
+		"image": "images/player.png",
+		"classes": [
+			""
+		],
+		"metas": [
+			"None"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "Test#0000",
+		"twitter": "test",
+		"youtube": {
+			"name": "Test",
+			"url": "https://www.youtube.com/test"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "Test",
+			"url": "https://github.com/Test"
+		}
+	},
+	{
+		"id": "cyanide",
+		"name": "Cyanide",
+		"image": "images/player.png",
+		"classes": [
+			""
+		],
+		"metas": [
+			"None"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "Test#0000",
+		"twitter": "test",
+		"youtube": {
+			"name": "Test",
+			"url": "https://www.youtube.com/test"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "Test",
+			"url": "https://github.com/Test"
+		}
+	},
+	{
+		"id": "mozz",
+		"name": "Mozz",
+		"image": "images/player.png",
+		"classes": [
+			""
+		],
+		"metas": [
+			"None"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "Test#0000",
+		"twitter": "test",
+		"youtube": {
+			"name": "Test",
+			"url": "https://www.youtube.com/test"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "Test",
+			"url": "https://github.com/Test"
+		}
+	},
+	{
 		"id": "towel",
 		"name": "Towel",
 		"image": "images/player.png",
