@@ -245,15 +245,17 @@
 	{
 		"id": "randomz",
 		"name": "RandomZ",
-		"image": "images/player.png",
+		"image": "images/randomz.png",
 		"classes": [
-		
+				"gunmaster",
+				"acrofighter",
+				"fortegunner"
 		],
 		"metas": [
 			"Clementine"
 		],
 		"team_ids": [],
-		"timezone": "",
+		"timezone": "CST",
 		"card_content": [],
 		"page_content": [
 			"Test",
@@ -263,12 +265,12 @@
 		"discord": "RandomZ#0001",
 		"twitter": "",
 		"youtube": {
-			"name": "",
-			"url": ""
+			"name": "RandomZ",
+			"url": "https://www.youtube.com/channel/UCTBUcOpK133ocuxndVQ24hg?view_as=subscriber"
 		},
 		"twitch": {
-			"name": "",
-			"url": ""
+			"name": "iRndmZi",
+			"url": "https://www.twitch.tv/iRndmZi"
 		},
 		"github": {
 			"name": "",
