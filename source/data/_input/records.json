@@ -181,5 +181,22 @@
 				"video": ""
 			}
 		]
+	},
+	{
+		"quest_id": "dark_satellite",
+		"meta": "clementine",
+		"category": "1p",
+		"time": 846,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-18",
+		"players": [
+			{
+				"id": "waffle",
+				"class": "acrofighter",
+				"race": "human",
+				"video": ""
+			}
+		]
 	}
 ]
