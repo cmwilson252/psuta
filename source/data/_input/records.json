@@ -81,6 +81,23 @@
 		]
 	},
 	{
+		"quest_id": "the_eastern_peril",
+		"meta": "clementine",
+		"category": "1p",
+		"time": 397,
+		"team_id": "traveler",
+		"rank": "a",
+		"date": "2020-11-17",
+		"players": [
+			{
+				"id": "haro",
+				"class": "guntecher",
+				"race": "cast",
+				"video": ""
+			}
+		]
+	},
+	{
 		"quest_id": "sakura_blast",
 		"meta": "clementine",
 		"category": "1p",
