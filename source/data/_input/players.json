@@ -330,19 +330,52 @@
 			"<br/>",
 			"Test"
 		],
-		"discord": "Test#0000",
-		"twitter": "test",
+		"discord": "",
+		"twitter": "",
 		"youtube": {
-			"name": "Test",
-			"url": "https://www.youtube.com/test"
+			"name": "",
+			"url": ""
 		},
 		"twitch": {
 			"name": "",
 			"url": ""
 		},
 		"github": {
-			"name": "Test",
-			"url": "https://github.com/Test"
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "bando",
+		"name": "Bando",
+		"image": "images/player.png",
+		"classes": [
+			""
+		],
+		"metas": [
+			"None"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
 		}
 	},
 	{

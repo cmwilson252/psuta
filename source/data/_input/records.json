@@ -28,8 +28,8 @@
 			},
 			{
 				"id": "wolfe",
-				"class": "fortegunne",
-				"race": "beas",
+				"class": "fortefighter",
+				"race": "beast",
 				"video": ""
 			},
 			{
@@ -144,6 +144,40 @@
 				"id": "jess",
 				"class": "fortefighter",
 				"race": "beast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "unsafe_passage",
+		"meta": "clementine",
+		"category": "1p",
+		"time": 244,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-18",
+		"players": [
+			{
+				"id": "bando",
+				"class": "fortegunner",
+				"race": "cast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "unsafe_passage",
+		"meta": "clementine",
+		"category": "1p",
+		"time": 280,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-18",
+		"players": [
+			{
+				"id": "waffle",
+				"class": "acrofighter",
+				"race": "human",
 				"video": ""
 			}
 		]
