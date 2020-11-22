@@ -83,6 +83,58 @@
 	{
 		"quest_id": "the_eastern_peril",
 		"meta": "clementine",
+		"category": "2p",
+		"time": 263,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-18",
+		"players": [
+			{
+				"id": "haro",
+				"class": "guntecher",
+				"race": "cast",
+				"video": ""
+			},
+			{
+				"id": "mozz",
+				"class": "acrofighter",
+				"race": "human",
+				"video": ""
+			},
+			{
+				"id": "togg",
+				"class": "acrotecher",
+				"race": "beast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "the_eastern_peril",
+		"meta": "clementine",
+		"category": "2p",
+		"time": 329,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-18",
+		"players": [
+			{
+				"id": "haro",
+				"class": "guntecher",
+				"race": "cast",
+				"video": ""
+			},
+			{
+				"id": "mozz",
+				"class": "acrofighter",
+				"race": "human",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "the_eastern_peril",
+		"meta": "clementine",
 		"category": "1p",
 		"time": 397,
 		"team_id": "traveler",
