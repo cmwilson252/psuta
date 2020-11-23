@@ -173,41 +173,6 @@
 		}
 	},
 	{
-		"id": "aelphasy",
-		"name": "Aelphasy",
-		"image": "images/aelphasy.jpg",
-		"classes": [
-			"guntecher",
-			"fortegunner",
-			"gunmaster"
-		],
-		"metas": [
-			"Clementine"
-		],
-		"team_ids": [],
-		"timezone": "CET",
-		"card_content": [],
-		"page_content": [
-			"Test",
-			"<br/>",
-			"Test"
-		],
-		"discord": "Aelphasy#0252",
-		"twitter": "",
-		"youtube": {
-			"name": "",
-			"url": ""
-		},
-		"twitch": {
-			"name": "",
-			"url": ""
-		},
-		"github": {
-			"name": "",
-			"url": ""
-		}
-	},
-	{
 		"id": "gatman",
 		"name": "Gatman",
 		"image": "images/gatman.jpg",
@@ -232,6 +197,74 @@
 		"youtube": {
 			"name": "Matt Otto",
 			"url": "https://www.youtube.com/channel/UCuhaH0a3rkn6-nqb_8jECnQ"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "travendus",
+		"name": "Travendus",
+		"image": "images/player.png",
+		"classes": [
+			""
+		],
+		"metas": [
+			"None"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "Travendus#8062",
+		"twitter": "test",
+		"youtube": {
+			"name": "Test",
+			"url": "https://www.youtube.com/test"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "Test",
+			"url": "https://github.com/Test"
+		}
+	},
+	{
+		"id": "aelphasy",
+		"name": "Aelphasy",
+		"image": "images/aelphasy.jpg",
+		"classes": [
+			"guntecher",
+			"fortegunner",
+			"gunmaster"
+		],
+		"metas": [
+			"Clementine"
+		],
+		"team_ids": [],
+		"timezone": "CET",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "Aelphasy#0252",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
 		},
 		"twitch": {
 			"name": "",
@@ -363,7 +396,7 @@
 			"<br/>",
 			"Test"
 		],
-		"discord": "",
+		"discord": "cybxrmurdxr#0777",
 		"twitter": "",
 		"youtube": {
 			"name": "",
@@ -464,7 +497,7 @@
 			"<br/>",
 			"Test"
 		],
-		"discord": "Test#0000",
+		"discord": "Mozzman#0845",
 		"twitter": "test",
 		"youtube": {
 			"name": "Test",
@@ -482,6 +515,72 @@
 	{
 		"id": "togg",
 		"name": "Togg",
+		"image": "images/player.png",
+		"classes": [
+			""
+		],
+		"metas": [
+			"None"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "Toggie#3839",
+		"twitter": "test",
+		"youtube": {
+			"name": "Test",
+			"url": "https://www.youtube.com/test"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "Test",
+			"url": "https://github.com/Test"
+		}
+	},
+	{
+		"id": "nick_smith",
+		"name": "Nick Smith",
+		"image": "images/player.png",
+		"classes": [
+			""
+		],
+		"metas": [
+			"None"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "Test#0000",
+		"twitter": "test",
+		"youtube": {
+			"name": "Test",
+			"url": "https://www.youtube.com/test"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "Test",
+			"url": "https://github.com/Test"
+		}
+	},
+	{
+		"id": "coast",
+		"name": "Coast",
 		"image": "images/player.png",
 		"classes": [
 			""
