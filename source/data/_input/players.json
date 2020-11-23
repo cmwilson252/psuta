@@ -107,9 +107,9 @@
 		"name": "Haro",
 		"image": "images/haro.jpg",
 		"classes": [
-			"masterforce",
+			"guntecher",
 			"gunmaster",
-			"protranser"
+			"masterforce"
 		],
 		"metas": [
 			"Clementine"
