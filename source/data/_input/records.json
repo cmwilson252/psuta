@@ -110,6 +110,40 @@
 		]
 	},
 	{
+		"quest_id": "forest_infiltration",
+		"meta": "clementine",
+		"category": "1p",
+		"time": 348,
+		"team_id": "traveler",
+		"rank": "a",
+		"date": "2020-11-21",
+		"players": [
+			{
+				"id": "jess",
+				"class": "fortefighter",
+				"race": "beast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "forest_infiltration",
+		"meta": "clementine",
+		"category": "1p",
+		"time": 366,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-20",
+		"players": [
+			{
+				"id": "el",
+				"class": "fortefighter",
+				"race": "beast",
+				"video": ""
+			}
+		]
+	},
+	{
 		"quest_id": "the_eastern_peril",
 		"meta": "clementine",
 		"category": "2p",

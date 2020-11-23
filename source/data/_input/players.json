@@ -241,6 +241,39 @@
 		}
 	},
 	{
+		"id": "el",
+		"name": "EL",
+		"image": "images/player.png",
+		"classes": [
+			""
+		],
+		"metas": [
+			"None"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "Travendus#8062",
+		"twitter": "test",
+		"youtube": {
+			"name": "Test",
+			"url": "https://www.youtube.com/test"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "Test",
+			"url": "https://github.com/Test"
+		}
+	},
+	{
 		"id": "aelphasy",
 		"name": "Aelphasy",
 		"image": "images/aelphasy.jpg",
