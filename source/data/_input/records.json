@@ -114,7 +114,7 @@
 		"meta": "clementine",
 		"category": "2p",
 		"time": 256,
-		"team_id": "noteam",
+		"team_id": "traveler",
 		"rank": "a",
 		"date": "2020-11-23",
 		"players": [
@@ -126,7 +126,7 @@
 			},
 			{
 				"id": "flawless",
-				"class": "fighfgunner",
+				"class": "fighgunner",
 				"race": "cast",
 				"video": ""
 			}
