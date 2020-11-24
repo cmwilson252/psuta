@@ -81,35 +81,6 @@
 		]
 	},
 	{
-		"quest_id": "the_eastern_peril",
-		"meta": "clementine",
-		"category": "3p",
-		"time": 263,
-		"team_id": "noteam",
-		"rank": "a",
-		"date": "2020-11-18",
-		"players": [
-			{
-				"id": "haro",
-				"class": "guntecher",
-				"race": "cast",
-				"video": ""
-			},
-			{
-				"id": "mozz",
-				"class": "acrofighter",
-				"race": "human",
-				"video": ""
-			},
-			{
-				"id": "togg",
-				"class": "acrotecher",
-				"race": "beast",
-				"video": ""
-			}
-		]
-	},
-	{
 		"quest_id": "forest_infiltration",
 		"meta": "clementine",
 		"category": "1p",
@@ -139,6 +110,58 @@
 				"id": "el",
 				"class": "fortefighter",
 				"race": "beast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "the_eastern_peril",
+		"meta": "clementine",
+		"category": "3p",
+		"time": 263,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-18",
+		"players": [
+			{
+				"id": "haro",
+				"class": "guntecher",
+				"race": "cast",
+				"video": ""
+			},
+			{
+				"id": "mozz",
+				"class": "acrofighter",
+				"race": "human",
+				"video": ""
+			},
+			{
+				"id": "togg",
+				"class": "acrotecher",
+				"race": "beast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "the_eastern_peril",
+		"meta": "clementine",
+		"category": "2p",
+		"time": 255,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-24",
+		"players": [
+			{
+				"id": "timeless",
+				"class": "fighgunner",
+				"race": "cast",
+				"video": ""
+			},
+			{
+				"id": "gloom",
+				"class": "fortegunner",
+				"race": "cast",
 				"video": ""
 			}
 		]
@@ -328,6 +351,23 @@
 				"id": "xerra",
 				"class": "guntecher",
 				"race": "human",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "dark_satellite",
+		"meta": "clementine",
+		"category": "1p",
+		"time": 800,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-24",
+		"players": [
+			{
+				"id": "skinny",
+				"class": "fighgunner",
+				"race": "cast",
 				"video": ""
 			}
 		]
