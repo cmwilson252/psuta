@@ -324,6 +324,47 @@
 		"date": "2020-11-17",
 		"players": [
 			{
+				"id": "jess",
+				"class": "fighgunne",
+				"race": "cast",
+				"video": ""
+			},
+			{
+				"id": "eth",
+				"class": "forteteche",
+				"race": "newma",
+				"video": ""
+			},
+			{
+				"id": "travendus",
+				"class": "protranser",
+				"race": "cast",
+				"video": ""
+			},
+			{
+				"id": "nick_smith",
+				"class": "fortegunner",
+				"race": "cast",
+				"video": ""
+			},
+			{
+				"id": "krazy",
+				"class": "gunteche",
+				"race": "newma",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "dark_satellite",
+		"meta": "clementine",
+		"category": "5p",
+		"time": 413,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-17",
+		"players": [
+			{
 				"id": "flawless",
 				"class": "fighgunner",
 				"race": "cast",
@@ -351,6 +392,23 @@
 				"id": "xerra",
 				"class": "guntecher",
 				"race": "human",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "dark_satellite",
+		"meta": "clementine",
+		"category": "1p",
+		"time": 751,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-26",
+		"players": [
+			{
+				"id": "nick_smith",
+				"class": "fortegunner",
+				"race": "cast",
 				"video": ""
 			}
 		]

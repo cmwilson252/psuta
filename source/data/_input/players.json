@@ -19,7 +19,7 @@
 			"<br/>",
 			"Test"
 		],
-		"discord": ".1%er#9342",
+		"discord": "Wilson#3005",
 		"twitter": "coloradowilson2",
 		"youtube": {
 			"name": "wilsonpsobb",
@@ -379,6 +379,39 @@
 		}
 	},
 	{
+		"id": "eth",
+		"name": "Ethateral",
+		"image": "images/player.png",
+		"classes": [
+			""
+		],
+		"metas": [
+			"None"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "waffle",
 		"name": "Waffle",
 		"image": "images/player.png",
@@ -680,6 +713,39 @@
 	{
 		"id": "bigfella",
 		"name": "BigFella",
+		"image": "images/player.png",
+		"classes": [
+			""
+		],
+		"metas": [
+			"None"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "krazy",
+		"name": "KrazyBlizzard",
 		"image": "images/player.png",
 		"classes": [
 			""
