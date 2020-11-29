@@ -1,5 +1,22 @@
 [
 	{
+		"quest_id": "lab_recovery",
+		"meta": "clementine",
+		"category": "1p",
+		"time": 336,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-26",
+		"players": [
+			{
+				"id": "xerra",
+				"class": "guntecher",
+				"race": "human",
+				"video": ""
+			}
+		]
+	},
+	{
 		"quest_id": "military_subway",
 		"meta": "clementine",
 		"category": "6p",
@@ -76,6 +93,23 @@
 				"id": "randomz",
 				"class": "fortegunner",
 				"race": "beast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "sunken_shrine",
+		"meta": "clementine",
+		"category": "1p",
+		"time": 598,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-27",
+		"players": [
+			{
+				"id": "waffle",
+				"class": "",
+				"race": "human",
 				"video": ""
 			}
 		]
@@ -216,6 +250,23 @@
 		"quest_id": "the_eastern_peril",
 		"meta": "clementine",
 		"category": "1p",
+		"time": 340,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-27",
+		"players": [
+			{
+				"id": "exmover",
+				"class": "fortegunner",
+				"race": "cast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "the_eastern_peril",
+		"meta": "clementine",
+		"category": "1p",
 		"time": 397,
 		"team_id": "traveler",
 		"rank": "a",
@@ -225,6 +276,23 @@
 				"id": "haro",
 				"class": "guntecher",
 				"race": "cast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "sakura_blast",
+		"meta": "clementine",
+		"category": "1p",
+		"time": 488,
+		"team_id": "gatglitch",
+		"rank": "a",
+		"date": "2020-11-27",
+		"players": [
+			{
+				"id": "gatman",
+				"class": "fighgunner",
+				"race": "human",
 				"video": ""
 			}
 		]
@@ -281,58 +349,24 @@
 		]
 	},
 	{
-		"quest_id": "unsafe_passage",
-		"meta": "clementine",
-		"category": "1p",
-		"time": 244,
-		"team_id": "noteam",
-		"rank": "a",
-		"date": "2020-11-18",
-		"players": [
-			{
-				"id": "bando",
-				"class": "fortegunner",
-				"race": "cast",
-				"video": ""
-			}
-		]
-	},
-	{
-		"quest_id": "unsafe_passage",
-		"meta": "clementine",
-		"category": "1p",
-		"time": 280,
-		"team_id": "noteam",
-		"rank": "a",
-		"date": "2020-11-18",
-		"players": [
-			{
-				"id": "waffle",
-				"class": "acrofighter",
-				"race": "human",
-				"video": ""
-			}
-		]
-	},
-	{
 		"quest_id": "dark_satellite",
 		"meta": "clementine",
 		"category": "5p",
-		"time": 413,
+		"time": 406,
 		"team_id": "noteam",
 		"rank": "a",
-		"date": "2020-11-17",
+		"date": "2020-11-24",
 		"players": [
 			{
 				"id": "jess",
-				"class": "fighgunne",
+				"class": "fighgunner",
 				"race": "cast",
 				"video": ""
 			},
 			{
 				"id": "eth",
-				"class": "forteteche",
-				"race": "newma",
+				"class": "fortetecher",
+				"race": "newman",
 				"video": ""
 			},
 			{
@@ -349,8 +383,8 @@
 			},
 			{
 				"id": "krazy",
-				"class": "gunteche",
-				"race": "newma",
+				"class": "guntecher",
+				"race": "newman",
 				"video": ""
 			}
 		]
@@ -400,6 +434,74 @@
 		"quest_id": "dark_satellite",
 		"meta": "clementine",
 		"category": "1p",
+		"time": 530,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-28",
+		"players": [
+			{
+				"id": "aelphasy",
+				"class": "fortegunner",
+				"race": "beast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "dark_satellite",
+		"meta": "clementine",
+		"category": "1p",
+		"time": 561,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-28",
+		"players": [
+			{
+				"id": "krazy",
+				"class": "fortegunner",
+				"race": "cast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "dark_satellite",
+		"meta": "clementine",
+		"category": "1p",
+		"time": 699,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-27",
+		"players": [
+			{
+				"id": "waffle",
+				"class": "fortegunner",
+				"race": "human",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "dark_satellite",
+		"meta": "clementine",
+		"category": "1p",
+		"time": 744,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-26",
+		"players": [
+			{
+				"id": "skinny",
+				"class": "fighgunner",
+				"race": "cast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "dark_satellite",
+		"meta": "clementine",
+		"category": "1p",
 		"time": 751,
 		"team_id": "noteam",
 		"rank": "a",
@@ -414,27 +516,44 @@
 		]
 	},
 	{
-		"quest_id": "dark_satellite",
+		"quest_id": "unsafe_passage",
 		"meta": "clementine",
 		"category": "1p",
-		"time": 800,
+		"time": 239,
 		"team_id": "noteam",
 		"rank": "a",
-		"date": "2020-11-24",
+		"date": "2020-11-27",
 		"players": [
 			{
-				"id": "skinny",
-				"class": "fighgunner",
+				"id": "aelphasy",
+				"class": "fortegunner",
+				"race": "beast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "unsafe_passage",
+		"meta": "clementine",
+		"category": "1p",
+		"time": 244,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-18",
+		"players": [
+			{
+				"id": "bando",
+				"class": "fortegunner",
 				"race": "cast",
 				"video": ""
 			}
 		]
 	},
 	{
-		"quest_id": "dark_satellite",
+		"quest_id": "unsafe_passage",
 		"meta": "clementine",
 		"category": "1p",
-		"time": 846,
+		"time": 280,
 		"team_id": "noteam",
 		"rank": "a",
 		"date": "2020-11-18",
