@@ -116,7 +116,7 @@
 		],
 		"team_ids": ["traveler"],
 		"timezone": "CST",
-		"card_content": [],
+		"card_content": ["IGNs: Haro/Grid"],
 		"page_content": [
 			"Test",
 			"<br/>",
