@@ -168,8 +168,8 @@
 		"is_countdown": false
 	},
 	{
-		"id": "shrunken_shrine",
-		"name": "Shrunken Shrine",
+		"id": "sunken_shrine",
+		"name": "Sunken Shrine",
 		"mode": "normal",
 		"planet": "parum",
 		"is_teamz_enabled": true,
