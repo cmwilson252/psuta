@@ -434,6 +434,23 @@
 		"quest_id": "dark_satellite",
 		"meta": "clementine",
 		"category": "1p",
+		"time": 512,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-29",
+		"players": [
+			{
+				"id": "gloom",
+				"class": "fortegunner",
+				"race": "cast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "dark_satellite",
+		"meta": "clementine",
+		"category": "1p",
 		"time": 530,
 		"team_id": "noteam",
 		"rank": "a",
@@ -511,6 +528,23 @@
 				"id": "nick_smith",
 				"class": "fortegunner",
 				"race": "cast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "fantastic_voyage",
+		"meta": "clementine",
+		"category": "1p",
+		"time": 688,
+		"team_id": "noteam",
+		"rank": "b",
+		"date": "2020-11-29",
+		"players": [
+			{
+				"id": "exmover",
+				"class": "guntecher",
+				"race": "beast",
 				"video": ""
 			}
 		]
