@@ -599,5 +599,34 @@
 				"video": ""
 			}
 		]
+	},
+	{
+		"quest_id": "bladed_legacy",
+		"meta": "clementine",
+		"category": "3p",
+		"time": 409,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-11-29",
+		"players": [
+			{
+				"id": "waffle",
+				"class": "fortegunner",
+				"race": "human",
+				"video": ""
+			},
+			{
+				"id": "gatman",
+				"class": "fighgunner",
+				"race": "human",
+				"video": ""
+			},
+			{
+				"id": "travendus",
+				"class": "protranser",
+				"race": "cast",
+				"video": ""
+			}
+		]
 	}
 ]
