@@ -181,6 +181,29 @@
 		"quest_id": "the_eastern_peril",
 		"meta": "clementine",
 		"category": "2p",
+		"time": 226,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-12-1",
+		"players": [
+			{
+				"id": "timeless",
+				"class": "fighgunner",
+				"race": "cast",
+				"video": ""
+			},
+			{
+				"id": "gloom",
+				"class": "fortegunner",
+				"race": "cast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "the_eastern_peril",
+		"meta": "clementine",
+		"category": "2p",
 		"time": 249,
 		"team_id": "traveler",
 		"rank": "a",
@@ -195,29 +218,6 @@
 			{
 				"id": "flawless",
 				"class": "fighgunner",
-				"race": "cast",
-				"video": ""
-			}
-		]
-	},
-	{
-		"quest_id": "the_eastern_peril",
-		"meta": "clementine",
-		"category": "2p",
-		"time": 255,
-		"team_id": "noteam",
-		"rank": "a",
-		"date": "2020-11-24",
-		"players": [
-			{
-				"id": "timeless",
-				"class": "fighgunner",
-				"race": "cast",
-				"video": ""
-			},
-			{
-				"id": "gloom",
-				"class": "fortegunner",
 				"race": "cast",
 				"video": ""
 			}
