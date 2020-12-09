@@ -81,6 +81,40 @@
 		]
 	},
 	{
+		"quest_id": "lightning_beast",
+		"meta": "clementine",
+		"category": "1p",
+		"time": 408,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-12-03",
+		"players": [
+			{
+				"id": "randomz",
+				"class": "fortegunner",
+				"race": "beast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "seed_express",
+		"meta": "clementine",
+		"category": "1p",
+		"time": 420,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-12-03",
+		"players": [
+			{
+				"id": "randomz",
+				"class": "fortegunner",
+				"race": "beast",
+				"video": ""
+			}
+		]
+	},
+	{
 		"quest_id": "seed_express",
 		"meta": "clementine",
 		"category": "1p",
@@ -181,10 +215,33 @@
 		"quest_id": "the_eastern_peril",
 		"meta": "clementine",
 		"category": "2p",
+		"time": 218,
+		"team_id": "noteam",
+		"rank": "a",
+		"date": "2020-12-01",
+		"players": [
+			{
+				"id": "timeless",
+				"class": "fighgunner",
+				"race": "cast",
+				"video": "https://youtu.be/mSzD2WCFpl8"
+			},
+			{
+				"id": "gloom",
+				"class": "fortegunner",
+				"race": "cast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "the_eastern_peril",
+		"meta": "clementine",
+		"category": "2p",
 		"time": 224,
 		"team_id": "noteam",
 		"rank": "a",
-		"date": "2020-12-2",
+		"date": "2020-12-02",
 		"players": [
 			{
 				"id": "flawless",
@@ -204,33 +261,10 @@
 		"quest_id": "the_eastern_peril",
 		"meta": "clementine",
 		"category": "2p",
-		"time": 226,
-		"team_id": "noteam",
-		"rank": "a",
-		"date": "2020-12-1",
-		"players": [
-			{
-				"id": "timeless",
-				"class": "fighgunner",
-				"race": "cast",
-				"video": ""
-			},
-			{
-				"id": "gloom",
-				"class": "fortegunner",
-				"race": "cast",
-				"video": ""
-			}
-		]
-	},
-	{
-		"quest_id": "the_eastern_peril",
-		"meta": "clementine",
-		"category": "2p",
-		"time": 249,
+		"time": 224,
 		"team_id": "traveler",
 		"rank": "a",
-		"date": "2020-11-27",
+		"date": "2020-12-09",
 		"players": [
 			{
 				"id": "haro",
@@ -273,6 +307,23 @@
 		"quest_id": "the_eastern_peril",
 		"meta": "clementine",
 		"category": "1p",
+		"time": 316,
+		"team_id": "traveler",
+		"rank": "a",
+		"date": "2020-12-06",
+		"players": [
+			{
+				"id": "haro",
+				"class": "guntecher",
+				"race": "cast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "the_eastern_peril",
+		"meta": "clementine",
+		"category": "1p",
 		"time": 340,
 		"team_id": "noteam",
 		"rank": "a",
@@ -287,18 +338,18 @@
 		]
 	},
 	{
-		"quest_id": "the_eastern_peril",
+		"quest_id": "white_beast",
 		"meta": "clementine",
 		"category": "1p",
-		"time": 397,
-		"team_id": "traveler",
+		"time": 472,
+		"team_id": "noteam",
 		"rank": "a",
-		"date": "2020-11-17",
+		"date": "2020-12-03",
 		"players": [
 			{
-				"id": "haro",
-				"class": "guntecher",
-				"race": "cast",
+				"id": "randomz",
+				"class": "fortegunner",
+				"race": "beast",
 				"video": ""
 			}
 		]
