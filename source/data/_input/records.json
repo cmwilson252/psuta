@@ -216,6 +216,29 @@
 		"meta": "clementine",
 		"category": "2p",
 		"time": 218,
+		"team_id": "traveler",
+		"rank": "a",
+		"date": "2020-12-10",
+		"players": [
+			{
+				"id": "haro",
+				"class": "guntecher",
+				"race": "cast",
+				"video": ""
+			},
+			{
+				"id": "flawless",
+				"class": "fighgunner",
+				"race": "cast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"quest_id": "the_eastern_peril",
+		"meta": "clementine",
+		"category": "2p",
+		"time": 218,
 		"team_id": "noteam",
 		"rank": "a",
 		"date": "2020-12-01",
@@ -253,29 +276,6 @@
 				"id": "aelphasy",
 				"class": "fortegunner",
 				"race": "beast",
-				"video": ""
-			}
-		]
-	},
-	{
-		"quest_id": "the_eastern_peril",
-		"meta": "clementine",
-		"category": "2p",
-		"time": 224,
-		"team_id": "traveler",
-		"rank": "a",
-		"date": "2020-12-09",
-		"players": [
-			{
-				"id": "haro",
-				"class": "guntecher",
-				"race": "cast",
-				"video": ""
-			},
-			{
-				"id": "flawless",
-				"class": "fighgunner",
-				"race": "cast",
 				"video": ""
 			}
 		]
