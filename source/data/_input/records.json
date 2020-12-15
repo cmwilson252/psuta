@@ -238,16 +238,16 @@
 		"quest_id": "the_eastern_peril",
 		"meta": "clementine",
 		"category": "2p",
-		"time": 218,
+		"time": 215,
 		"team_id": "noteam",
 		"rank": "a",
-		"date": "2020-12-01",
+		"date": "2020-12-12",
 		"players": [
 			{
 				"id": "timeless",
 				"class": "fighgunner",
 				"race": "cast",
-				"video": "https://youtu.be/mSzD2WCFpl8"
+				"video": ""
 			},
 			{
 				"id": "gloom",
