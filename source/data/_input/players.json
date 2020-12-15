@@ -5,8 +5,8 @@
 		"image": "images/flawless.jpg",
 		"classes": [
 			"fighmaster",
-			"fortefighter",
-			"protranser"
+			"fighgunner",
+			"acrofighter"
 		],
 		"metas": [
 			"Clementine"
@@ -28,39 +28,6 @@
 		"twitch": {
 			"name": "wilsonpsobb",
 			"url": "https://www.twitch.tv/wilsonpsobb"
-		},
-		"github": {
-			"name": "cmwilson252",
-			"url": "https://github.com/cmwilson252"
-		}
-	},
-	{
-		"id": "dgm",
-		"name": "DGM",
-		"image": "images/dgm.jpg",
-		"classes": [
-			"fighmaster"
-		],
-		"metas": [
-			"Clementine"
-		],
-		"team_ids": ["traveler"],
-		"timezone": "GMT",
-		"card_content": [],
-		"page_content": [
-			"Test",
-			"<br/>",
-			"Test"
-		],
-		"discord": "DGM#2352",
-		"twitter": "DGM0Nine",
-		"youtube": {
-			"name": "DGM",
-			"url": "https://www.youtube.com/channel/UCkPrffr2f5261PVQ2pAsWzg"
-		},
-		"twitch": {
-			"name": "DGM0Nine",
-			"url": "https://www.twitch.tv/dgm0nine"
 		},
 		"github": {
 			"name": "",
