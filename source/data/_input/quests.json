@@ -113,7 +113,7 @@
 	},
 	{
 		"id": "lightning_beasts",
-		"name": "Lightninng Beasts",
+		"name": "Lightning Beasts",
 		"mode": "normal",
 		"planet": "parum",
 		"is_teamz_enabled": true,
